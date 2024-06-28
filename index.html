@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Branding Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="JavaScript" href="java.js">
+    <script src="https://kit.fontawesome.com/afe21fc718.js" crossorigin="anonymous"></script>
+</head>
+<body>
+      <!--home-->
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web developer</p>
+                <h1>Hi, I'm <span>Kante Tarun Kumar</span><br> from India</h1>
+            </div>
+        </div>
+        
+    </div>
+
+<!--about-->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/profilepic (2).png" alt="">
+                </div>
+                <div class="about-col-2">
+                   <h1 class="sub-title aboutsection" >About me</h1>
+                   <p>
+                    Hello! I am Tarun Kumar. I have passion for web development, 
+                    stock trading, and programming. Skilled in HTML, CSS, JavaScript, 
+                    and various frameworks, I create user-friendly websites. Alongside, 
+                    my analytical mindset and market knowledge drive my success in stock trading. 
+                    I enjoy making informed investment decisions and staying updated 
+                    on market trends. Proficient in Java, and C++, I embrace 
+                    complex problem-solving using coding expertise. Currently pursuing my Bachelor of Technology
+                     in Electronics and Communication engineerig at Indian Institute of Technology(Indian School of Mines) Dhanbad, 
+                     I'm committed to continuous growth and skill enhancement.
+             
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Position of Responsibities')">Position of Responsibities</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                         <li><span>Web Developer</span><br>Web development using HTML,CSS,JavaScript</li>
+                         <li><span>Opinion trader</span><br>Opinion trading in bitcoin</li>
+                         <li><span>Softwares</span><br>Circuit maker,Matlab,Simulink,github,Simulink</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Position of Responsibities">
+                        <ul>
+                        
+                         <li><span>2024</span><br>Organiser in Srijan - Cultural fest of IIT(ISM),Dhanbad</li>
+                         <li><span>2024</span><br>Organiser in Parakram - Annual Sports fest of IIT(ISM),Dhanbad</li>
+                         <li><span>2023</span><br>Volunteer in Concetto - Annual Techno-Management fest of IIT(ISM),Dhanbad</li>
+                                                                 
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                         <li><span>December 2022-present</span><br>Bachelor of Technology in ECE from IIT(ISM),Dhanbad - 6.14</li>
+                         <li><span>June 2020-July2022</span><br>12th from Sri Chaithanya Junior College,Visakhapatnam - 7.18</li>
+                         <li><span>June 2019-July2020</span><br> 10th from Gurus School,Visakhapatnam - 94.8%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--services-->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developer</h2>
+                    <p>As a web developer, I specialize in crafting innovative and user-friendly websites that leave a lasting impact. With expertise in HTML, CSS, JavaScript, and various frameworks, I create dynamic and responsive interfaces. Let's collaborate to bring your vision to life and ensure a seamless online presence.</p>
+                     <a href="https://github.com/Tarunkumar02">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-arrow-trend-up"></i>
+                    <h2>Opinion Trader</h2>
+                    <p>I excel in stock and opinion trading. With a keen eye on market trends and a strategic approach, I make informed investment decisions. My analytical insights help clients navigate financial opportunities confidently. Let's work together to achieve your investment goals.</p>
+                     <a href="https://probo.in?type=user&id=3166222">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-desktop"></i>
+                    <h2>Login Webpage</h2>
+                    <p>As a skilled web designer, I excel in creating Webpages by using HTML, CSS, JavaScriptand other front-end develops.I create dynamic and responsive interfaces.</p>
+                     <a href="https://github.com/Tarunkumar02/Login-Webpage">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--portfolio-->
+
+    <div id="portfolio">
+         <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Weather.jpg" alt="">
+                    <div class="layer">
+                        <h3>Weather Web App</h3>
+                        <p>The web app get your current location and inform you the current weather conditions</p>
+                         <a href="https://github.com/Tarunkumar02/Weather-website"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Login website.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Login Website</h3>
+                        <p>This website let you Login and Signup by user Credentials(Email and Password) and later takes you into the google page</p>
+                         <a href="https://github.com/Tarunkumar02/Login-Webpage"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://www.sellerapp.com/blog/wp-content/uploads/2023/08/amazon-vs-etsy-1100x590.png" alt="">
+                    <div class="layer">
+                        <h3>Amazon Homepage clone</h3>
+                        <p>Amazon clone Webpage Website is my first basic project using HTML and CSS.This webpage looks like as the homepage of Amazon</p>
+                         <a href="https://github.com/Tarunkumar02/amazonclone/tree/main/Amazon%20clone"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Tarunkumar02" class="btn">See more</a>
+         </div>
+    </div>
+
+    <!--contact-->
+
+    <div id="contact">
+           <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> tarunkumarkante@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91-7036467073</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/kante-tarun-kumar-145abb289/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Tarunkumar02"><i class="fa-brands fa-github"></i></a>
+                        <a href="1_mr.tarun._.kumar_1"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/Resume.pdf" download class="btn btn2">Download resume</a>
+                </div>
+                <div class="contact-right">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" id="" placeholder="Your message" cols="30" rows="6"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                  <span id="msg"></span>
+                </div>
+            </div>
+           </div>
+           <div class="copyright">
+            <p>Copyright @tarunkumar</p>
+           </div>
+    </div>
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks)
+            {
+            tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu1=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu1.style.right="0";
+        }
+        function closemenu(){
+            sidemenu1.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby2sN8vNdHMkhk7XzQBkYuRY5NTsqrBlLaLXB4uJPzP6eSSAFMTP5gitBGeiK2gN4qw-w/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        //    ----to display hello for successful submission---
+        const msg=document.getElementById("msg");
+
+
+        form.addEventListener('submit', e => 
+        {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+
+          //    ----to display hello for successful submission---
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },1000)
+                form.reset()
+            })
+        })
+
+            .catch(error => console.error('Error!', error.message))
+            </script>
+
+    </body> 
+</html>
