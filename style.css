@@ -15,7 +15,7 @@ body{
 
     width: 100%;
     height: 100vh;
-    background-image: url(images/background.jpg);
+    background-image: url(background.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -331,7 +331,7 @@ nav .fas{
 }
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/bg-responsive.PNG);
+        background-image: url(bg-responsive.PNG);
     }
     .header-text{
         margin-top: 120%;
